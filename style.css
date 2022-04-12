@@ -20,6 +20,7 @@ body{
 a{
     text-decoration: none;
     outline: none;
+    color: black;
 }
 
 ul li{
@@ -40,6 +41,7 @@ ul li :hover a{
 
 i{
     color: #fff;
+    font-size: 28px;
 }
 .selector-menu{
     display: flex;
@@ -106,10 +108,11 @@ i{
     padding: 5px;
 }
 
-.list a, .list p{
-    color: #000;
+ .list a, .list p{
+    color: black;
     opacity: 0.4;
 }
+
 
 .item{
     background: #fff;
@@ -135,4 +138,18 @@ span{
     color: #ffff;
     margin-bottom: 20px;
     margin-top: -15px;
+}
+h4{
+        color: #ffff;
+        margin-bottom: 20px;
+        margin-top: -15px;
+        font-size: 20px;
+    }
+.footer{
+display: inline-flex;
+align-items: center;
+justify-content: center;
+text-align: center;
+font-size: 14px;
+margin-top: 40px;
 }
