@@ -9,7 +9,7 @@
 }
 
 body{
-    background: turquoise;
+    background: black;
     font-family: sans-serif;
     display: flex;
     flex-direction: column;
@@ -47,10 +47,11 @@ i{
     display: flex;
     align-items: center;
     margin-bottom: 25px;
+    background: rgb(99, 96, 109);
 }
 
 .selector-menu a {
-    background: rgba(0,0,0,0.3);
+    background: rgb(99, 96, 109);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -58,7 +59,7 @@ i{
     height: 60px;
 }
 .selector-menu a:hover:not(focus){
-    background: hotpink;
+    background: turquoise;
 }
 .selector-menu a:focus {
     transform: scale(1.2);
@@ -115,7 +116,7 @@ i{
 
 
 .item{
-    background: #fff;
+    background: rgb(99, 96, 109);
     padding: 20px;
 }
 
@@ -129,21 +130,23 @@ i{
 }
 
 h2{
-    color: hotpink;
+    color: white;
     margin-bottom: 20px;
     font-size: 40px;
+    font-family: 'Yeseva One', cursive;
 }
 
 span{
-    color: #ffff;
+    color: white;
     margin-bottom: 20px;
     margin-top: -15px;
 }
 h4{
-        color: #ffff;
+        color: white;
         margin-bottom: 20px;
         margin-top: -15px;
-        font-size: 20px;
+        font-size: 15px;
+        font-family: 'Nixie One', cursive;
     }
 .footer{
 display: inline-flex;
